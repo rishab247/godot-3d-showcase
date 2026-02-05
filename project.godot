@@ -1,0 +1,29 @@
+config_version=5
+
+[application]
+
+config/name="3D Showcase"
+config/description="Ultra-realistic 3D showcase with crash reporting"
+config/version="1.0.0"
+run/main_scene="res://scenes/showcase_v2.tscn"
+config/features=PackedStringArray("4.3", "Mobile")
+config/icon="res://icon.svg"
+
+[autoload]
+
+ErrorHandler="*res://autoload/error_handler.gd"
+
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/size/resizable=false
+window/handheld/orientation=1
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[rendering]
+
+renderer/rendering_method="mobile"
+renderer/rendering_method.mobile="mobile"
+textures/vram_compression/import_etc2_astc=true

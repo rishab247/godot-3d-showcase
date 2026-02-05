@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.godot.game-mergeReleaseResources-17:/values-en/values-en.xml",
+            "map": [
+                {
+                    "source": "/home/ubuntu/.openclaw/workspace/godot-android-3d/android/build/res/values-en/godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "116",
+                        "endColumns": "75",
+                        "endOffsets": "187"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "75",
+                        "endOffsets": "126"
+                    }
+                }
+            ]
+        }
+    ]
+}
